@@ -1,0 +1,450 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+   <!--- Bootstrap link --->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   <!--- Bootstrap link --->
+
+   <!--- Font awesome cdn --->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   <!--- Font Awesome cdn --->
+
+   <!--- Google Fonts --->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+   <!--- Google Fonts --->
+</head>
+<body>
+    
+  <!--- navbar start --->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallary">Gallary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--- navbar end --->
+
+ <!--- Home section start --->
+ <div class="home">
+    <div class="content">
+        <h5>Welcome to the World</h5>
+        <h1> Visit <span class="changecontent"></span></h1>
+        <p>Experience the world like never before.</p>
+        <a href="#book">Book Place</a>
+    </div>
+ </div>
+<!--- Home section end --->
+
+<!--- Section Book Start --->
+<section class="book" id="book">
+    <div class="container">
+        <div class="main-text">
+            <h1><span>B</span>ook</h1>
+        </div>
+        <div class="row">
+
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="./holiday.webp" alt="">
+                </div>
+            </div>
+      
+
+        <div class="col-md-6 py-3 py-md-0">
+           <form action="#">
+
+            <input type="text" class="form-control" placeholder="Where to" required><br>
+            <input type="text" class="form-control" placeholder="How Many Days" required><br>
+            <input type="date" class="form-control" placeholder="Arrival" required><br>
+            <input type="date" class="form-control" placeholder="Leaing" required><br>
+            <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea>
+            <input type="submit" value="Book Now" class="submit" required>
+
+        </form>
+        </div>
+    
+    </div>
+    </div>
+</section>
+
+
+
+<!--- Section Book End --->
+
+
+
+<!--- Section Package Start --->
+<section class="packages" id="packages">
+  <div class="container">
+
+    <div class="main-text">
+      <h1><span>P</span>ackages</h1>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+         <img src="India (2).jpg" alt="">
+         <div class="card-body">
+          <h3>India</h3>
+          <p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area; the most populous country as of June 2023; and from the time of its independence in 1947, the world's most populous democracy.</p>
+          <div class="star">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked "></i>
+            <i class="fa-solid fa-star "></i>
+          </div>
+          <h6>Price: <strong>Rs.14000</strong></h6>
+          <a href="#book">Book Now</a>
+         </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+         <img src="france.jfif" alt="">
+         <div class="card-body">
+          <h3>France</h3>
+          <p>France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower. The country is also renowned for its wines and sophisticated cuisine. Lascaux’s ancient cave drawings, Lyon’s Roman theater and the vast Palace of Versailles attest to its rich history.</p>
+          <div class="star">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star "></i>
+  
+          </div>
+          <h6>Price: <strong>Rs.14000</strong></h6>
+          <a href="#book">Book Now</a>
+         </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+         <img src="img.avif" alt="">
+         <div class="card-body">
+          <h3>United State</h3>
+          <p>The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC. Midwestern metropolis Chicago is known for influential architecture and on the west coast, Los Angeles' Hollywood is famed for filmmaking. </p>
+          <div class="star">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+  
+          </div>
+          <h6>Price: <strong>Rs.14000</strong></h6>
+          <a href="#book">Book Now</a>
+         </div>
+        </div>
+
+      </div>
+    
+    </div>
+    
+    <div class="row" style="margin-top: 30px;">
+
+     
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+         <img src="UK.webp" alt="">
+         <div class="card-body">
+          <h3>United Kingdom</h3>
+          <p>The United Kingdom, made up of England, Scotland, Wales and Northern Ireland, is an island nation in northwestern Europe. England – birthplace of Shakespeare and The Beatles – is home to the capital, London, a globally influential centre of finance and culture. England is also site of Neolithic Stonehenge, Bath’s Roman spa and centuries-old universities at Oxford and Cambridge.</p>
+          <div class="star">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+  
+          </div>
+          <h6>Price: <strong>Rs.14000</strong></h6>
+          <a href="#book">Book Now</a>
+         </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+         <img src="italy1.webp" alt="">
+         <div class="card-body">
+          <h3>Italy</h3>
+          <p>Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major cities include Florence, with Renaissance masterpieces such as Michelangelo’s "David" and Brunelleschi's Duomo; Venice, the city of canals; and Milan, Italy’s fashion capital.</p>
+          <div class="star">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+  
+          </div>
+          <h6>Price: <strong>Rs.14000</strong></h6>
+          <a href="#book">Book Now</a>
+         </div>
+        </div>
+
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+         <img src="china1.jpg" alt="">
+         <div class="card-body">
+          <h3>China</h3>
+          <p>China, officially the People's Republic of China, is a country in East Asia. With a population exceeding 1.4 billion, it is the world's second-most populous country. China spans the equivalent of five time zones and borders fourteen countries by land. </p>
+      
+          <div class="star">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star "></i>
+            <i class="fa-solid fa-star "></i>
+  
+          </div>
+          <h6>Price: <strong>Rs.14000</strong></h6>
+          <a href="#book">Book Now</a>
+         </div>
+        </div>
+
+      </div>
+    
+    </div>
+  </div>
+</section>
+
+<!--- Section Package End --->
+
+
+<!--- Section Service Start --->
+<section class="services" id="services">
+  <div class="container">
+
+    <div class="main-txt">
+      <h1><span>S</span>ervices</h1>
+    </div>
+   
+    
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+ 
+       <div class="card">
+         <i class="fas fa-hotel"></i>
+         <div class="card-body">
+           <h3>Affordable Hotel</h3>
+           <p>Find your perfect stay. From hotels, homes, and everything in between. </p>
+         </div>
+       </div>
+      </div>
+     
+     <div class="col-md-4 py-3 py-md-0">
+ 
+      <div class="card">
+        <i class="fas fa-Utensils"></i>
+        <div class="card-body">
+          <h3>Food & Drinks</h3>
+          <p>Find your perfect stay. From hotels, homes, and everything in between. </p>
+        </div>
+      </div>
+
+     </div>
+    <div class="col-md-4 py-3 py-md-0">
+ 
+      <div class="card">
+        <i class="fas fa-bullhorn"></i>
+        <div class="card-body">
+          <h3>Safty Guide</h3>
+          <p>Find your perfect stay. From hotels, homes, and everything in between. </p>
+        </div>
+      </div>
+
+     </div>
+    </div>
+    
+
+    
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-4 py-3 py-md-0">
+ 
+       <div class="card">
+         <i class="fas fa-globe-asia"></i>
+         <div class="card-body">
+           <h3>Around The World</h3>
+           <p>Find your perfect stay. From hotels, homes, and everything in between. </p>
+         </div>
+       </div>
+      </div>
+     
+     <div class="col-md-4 py-3 py-md-0">
+ 
+      <div class="card">
+        <i class="fas fa-plane"></i>
+        <div class="card-body">
+          <h3>Fastest Travel</h3>
+          <p>Find your perfect stay. From hotels, homes, and everything in between. </p>
+        </div>
+      </div>
+
+     </div>
+    <div class="col-md-4 py-3 py-md-0">
+ 
+      <div class="card">
+        <i class="fas fa-hiking"></i>
+        <div class="card-body">
+          <h3>Adventures</h3>
+          <p>Find your perfect stay. From hotels, homes, and everything in between. </p>
+        </div>
+      </div>
+
+     </div>
+    </div>
+  </div>
+</section>
+
+<!--- Section Service End --->
+
+<!--- Section Gallary Stsrt --->
+<section class="gallary" id="gallary">
+ <div class="container">
+  <div class="main-txt">
+    <h1><span>G</span>allary</h1>
+  </div>
+
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="beach.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="mount.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="night1.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="gallary4.avif" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="gallary5.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="gallary6.jpg" alt="">
+      </div>
+    </div>
+  </div>
+ </div>
+
+</section>
+<!--- Section Gallary End --->
+
+<!--- About Start --->
+<section class="about" id="about">
+  <div class="container">
+
+    <div class="main-txt">
+      <h1>About <span>Us</span></h1>
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+     
+      <div class="col-md-6 py-3 py-md-0">
+        <div class="card">
+          <img src="about.webp" alt="">
+        </div>
+      </div>
+       
+      <div class="col-md-6 py-3 py-md-0">
+        <h2>How Travel Agency Work</h2>
+        <p>A travel agency is a private retailer or public service that provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers to offer different kinds of travelling packages for each destination. Travel agencies can provide outdoor recreation, arranging logistics for luggage and medical items delivery for travellers upon request, public transport timetables, car rentals, and bureau de change services. Travel agencies can also serve as general sales agents for airlines that do not have offices in a specific region. A travel agency's main function is to act as an agent, selling travel products and services on behalf of a supplier. They are also called Travel Advisors. They do not keep inventory in-hand unless they have pre-booked hotel rooms or cabins on a cruise ship for a group travel event such as a wedding, honeymoon, or other group event.
+          <button id="about-btn">Read More...</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--- About End --->
+
+
+<!--- Footer Stsrt --->
+<footer id="footer">
+  <h1><span>T</span>ravel</h1>
+  <p></p>
+  <div class="social-links">
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-youtube"></i>
+  <i class="fa-brands fa-pinterest"></i>
+</div>
+<div class="credit">
+  <p>Designed By <a href="#">Divya Deshmukh</a></p>
+</div>
+<div class="copyright">
+  <p>&copy;Copyright Divya Deshmukh.All Rights Reserved</p>
+</div>
+</footer>
+
+
+
+<!--- Footer End --->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
